@@ -1,0 +1,429 @@
+
+/*HEADER----------------------------------------------------*/
+
+.FondoSuperiorHeader{
+    background-color: #222222;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.FondoPrincipalHeader{
+    background-color: #F0A83E;
+    color: white;
+    padding: 0px 110px 0px 95px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px 10px 0px;
+}
+
+.ContenedorHeader{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ContenedorHeaderLista{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ContenedorHeaderImagen{
+    margin: 12px;
+    
+}
+
+/*MAIN-----------------------------------------------------*/
+
+/*SUPERIOR-------------------------------------------------*/
+
+.FuenteMainSuperiorTitulo{
+    background-color: #FFFFFF;
+    color: #3C2313;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.FuenteMainSuperiorParrafo1{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.FuenteMainSuperiorParrafo2{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.ContenedorMainSuperiorPadre{
+    color: black;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.ContenedorMainSuperiorHijo1{
+    background: url(img/MainSuperiorImagen.png);
+    background-position:inherit;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 800px;
+
+}
+
+.ContenedorMainSuperiorHijo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 250px;
+    padding-right: 10%;
+
+}
+
+.ContenedorMainSuperiorHijo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*PRINCIPAL-----------------------------------------------*/
+
+.FuenteMainPrincipalTitulo{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FuenteMainPrincipalSubtitulo{
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FuenteMainPrincipalParrafo{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FuenteMainPrincipalParrafoPrecio{
+    color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ContenedorMainPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TamañoMainPrincipalImagen {
+    margin-top: 5%;
+    width: 60px;
+    height: 50px;
+
+}
+
+.ContenedorMainPrincipalImagenesPadre {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.ContenedorMainPrincipalImagenesHijo {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*FORMULARIO-----------------------------------------------*/
+
+.FuenteMainFormularioTitulo{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ContenedorMainFormularioPadre{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorMainFormularioHijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EstiloMainFormulario {
+    background-color: #3C2313;
+    height: 40px;
+    width: 340px;
+    left: 343px;
+    top: 1159px;
+    margin: 8px;
+    padding-left: 20px;
+    border-radius: 15px;
+
+}
+
+.EstiloMainBoton1{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    height: 34px;
+    width: 110px;
+    left: 405px;
+    top: 1340px;
+    border-radius: 15px;
+
+}
+
+.EstiloMainBoton2{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    height: 34px;
+    width: 110px;
+    left: 521px;
+    top: 1340px;
+    border-radius: 15px;
+
+
+}
+
+/*FOOTER-----------------------------------------------------*/
+
+/*SUPERIOR---------------------------------------------------*/
+
+.FuenteSuperiorFooter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FondoSuperiorFooter{
+    background-color: #F0A83E;
+    color: white;
+    padding: 0px 300px 0px 260px;
+    
+}
+
+.ContenedorSuperiorFooterPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ContenedorSuperiorFooterHijo {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.EstiloFooterFormulario {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 271px;
+    left: 631px;
+    top: 1459px;
+    border-radius: 15px;
+
+}
+
+.EstiloFooterBoton {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 15px;
+
+}
+
+/*PRINCIPAL---------------------------------------------------*/
+
+.TamañoFooterPrincipalImagen {
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+.FuentePrincipalFooterTitulo{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FuentePrincipalFooterSubtitulo{   
+    padding-left: 10px;
+    color: #8A8787;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.FondoPrincipalFooter{
+    background-color: #3C2313;
+    color: white;
+    padding: 0px 400px 0px 360px;
+    
+}
+
+.ContenedorPrincipalFooterPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 400px 0px 360px;
+}
+
+.ContenedorPrincipalFooterPadre1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ContenedorPrincipalFooterHijo {
+    display: flex;
+    justify-content: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ContenedorPrincipalFooterPadre2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*INFERIOR--------------------------------------------------*/
+
+.FondoInferiorFooter{
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ContenedorInferiorFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
